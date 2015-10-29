@@ -16,6 +16,10 @@
       "name": "Mav Peri",
       "email": "mp@h2labs.co.uk",
       "url": "http://h2labs.co.uk/"
+    },
+    {
+      "name": "Richard Pogson",
+      "email": "richardpogson@computer.org"
     }
   ],
   "dependencies": {
