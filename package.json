@@ -1,0 +1,26 @@
+{
+  "name": "cloudfront2loggly",
+  "version": "1.0.0",
+  "description": "Pushes gzipped Cloud Front log files stored in Amazon S3 to Loggly using Amazon Lambda.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fgheorghe/cloudfront2loggly.git"
+  },
+  "author": {
+    "name": "Grosan Flaviu Gheorghe",
+    "email": "fgheorghe@grosan.co.uk",
+    "url": "http://www.grosan.co.uk/"
+  },
+  "contributors": [
+    {
+      "name": "Mav Peri",
+      "email": "mp@h2labs.co.uk",
+      "url": "http://h2labs.co.uk/"
+    }
+  ],
+  "dependencies": {
+    "fast-csv": "0.6.0",
+    "request": "2.65.0"
+  },
+  "license": "BSD-3-Clause"
+}
