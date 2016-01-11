@@ -4,7 +4,7 @@ var zlib = require('zlib'),
     aws = require('aws-sdk'),
     s3 = new aws.S3({apiVersion: '2006-03-01'}),
     // Function used for transforming data before pushing it to longly. Remove if no transformation needed.
-    transformer: function(data) {
+    transformer = function(data) {
 	// Convert some fields to integer.
 	data["time-taken"] = parseInt(data["time-taken"], 10);
 	data["cs-bytes"] = parseInt(data["cs-bytes"], 10);
