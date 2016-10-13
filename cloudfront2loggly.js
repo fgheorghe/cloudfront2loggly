@@ -39,7 +39,8 @@ var zlib = require('zlib'),
             'x-forwarded-for',
             'ssl-protocol',
             'ssl-cipher',
-            'x-edge-response-result-type'
+            'x-edge-response-result-type',
+            'cs-protocol-version'
         ]
     },
     // Loggly credentials and tag name.
